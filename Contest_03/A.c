@@ -2,10 +2,13 @@
 
 int main()
 {
-    for (int i = 1; i <= 1000; i++)
+    int t;
+    scanf("%d", &t);
+    while (t--)
     {
-        printf("Hello World\n");
+        int n;
+        scanf("%d", &n);
+        printf("%d\n", n - 10);
     }
-
     return 0;
 }
